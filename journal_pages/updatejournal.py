@@ -29,6 +29,7 @@ def pushgit():
         repo.index.commit(x)
         origin = repo.remote(name='origin')
         origin.push()
+        webbrowser.open("https://github.com/yarshys/website")
     except:
         print('Some error occured while pushing the code')    
 edithtml()
