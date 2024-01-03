@@ -21,6 +21,7 @@ def edithtml():
     # Open the modified HTML file in a web browser
     webbrowser.open(html_file_path, new=2)
     pushgit()
+    
 def pushgit():
     try:
         repo = Repo(PATH_OF_GIT_REPO)
